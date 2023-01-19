@@ -63,7 +63,7 @@
 				<item name="CanOpener" chance="0.75" />
 				<item name="Rope" chance="0.75" />
 				<item name="Nailbox" chance="1.00" />
-				<item name="Hatchet" chance=1.00" />
+				<item name="Hatchet" chance="1.00" />
 				<item name="StoneKnife" chance="0.1" />
 				<item name="HuntingKnife" chance="0.08" />
 				<item name="PurificationTablets" chance="0.05" />
@@ -259,13 +259,13 @@
 				<item name="LeatherJacket_Black" chance="1.00" />
 				<item name="M65Jacket_Black" chance="1.00" />
 				<item name="TacticalGloves_Green" chance="1.00" />
-				<item name="FlatCap_BlackCheck" chance="1.00" />
+				<item name="BalaclavaMask_Blackskull" chance="1.00" />
 				<item name="TetracyclineAntibiotics" chance="1.00" />
 				<item name="TruckBattery" chance="1.00" />
 				<item name="USMCPants_Woodland" chance="1.00" />
 				<item name="USMCJacket_Woodland" chance="1.00" />
 		</attachments>
-		<attachments chance="0.10" name="bagsHunter">
+		<attachments chance="0.50" name="bagsHunter">
 			<item name="CourierBag" chance="0.10" />
 			<item name="AliceBag_Black" chance="0.50" />
 		</attachments>
@@ -274,8 +274,8 @@
 			<item name="ChestHolster" chance="0.50" />
 		</attachments>
 		<!--VILLAGE ATTACHMENTS-->
-		<attachments chance="0.20" name="hatsVillage">
-				<item name="FlatCap_Black" chance="0.10" />
+		<attachments chance="0.75" name="hatsVillage">
+				<item name="BalaclavaMask_Blackskull" chance="0.85" />
 				<item name="FlatCap_Blue" chance="0.10" />
 				<item name="FlatCap_Red" chance="0.10" />
 				<item name="FlatCap_Brown" chance="0.10" />
@@ -326,7 +326,7 @@
 				<item name="BaseballBat" chance="1.0" />
 				<item name="Machete" chance="1.0" />
 		</attachments>
-		<attachments chance="0.00" name="glassesCity"> <!--was chance="0.20"; removed coz of attachment slot is missing -->
+		<attachments chance="0.00" name="AliceBag_Camo"> <!--was chance="0.20"; removed coz of attachment slot is missing -->
 			<item name="ThickFramesGlasses" chance="0.10" />
 			<item name="ThinFramesGlasses" chance="0.10" />
 			<item name="DesignerGlasses" chance="0.10" />
