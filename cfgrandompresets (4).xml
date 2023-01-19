@@ -341,7 +341,7 @@
 			<item name="TaloonBag_Violet" chance="0.25" />
 			<item name="TaloonBag_Green" chance="0.25" />
 		</attachments>
-		<attachments chance="0.30" name="hatsCitySkate">
+		<attachments chance="0.00" name="hatsCitySkate">
 				<item name="SkateHelmet_Blue" chance="0.20" />
 				<item name="SkateHelmet_Gray" chance="0.20" />
 				<item name="SkateHelmet_Green" chance="0.20" />
@@ -349,7 +349,7 @@
 				<item name="SkateHelmet_Black" chance="0.20" />
 		</attachments>
 		<!--INDUSTRIAL ATTACHMENTS-->
-		<attachments chance="0.30" name="hatsIndustrial">
+		<attachments chance="0.00" name="hatsIndustrial">
 				<item name="ConstructionHelmet_Blue" chance="0.10" />
 				<item name="ConstructionHelmet_Lime" chance="0.10" />
 				<item name="ConstructionHelmet_Orange" chance="0.10" />
@@ -358,7 +358,7 @@
 				<item name="ConstructionHelmet_Yellow" chance="0.10" />
 				<item name="WeldingMask" chance="0.05" />
 		</attachments>
-		<attachments chance="0.15" name="handsIndustrial">
+		<attachments chance="1.00" name="handsIndustrial">
 				<item name="Pipe" chance="0.15" />
 				<item name="Crowbar" chance="0.15" />
 				<item name="Sledgehammer" chance="0.15" />
@@ -414,11 +414,11 @@
 			<item name="SmershVest" chance="0.05" />
 		</attachments>
 		<attachments chance="0.15" name="bagsArmy">
-			<item name="AssaultBag_Green" chance="0.10" />
+			<item name="AssaultBag_Green" chance="0.75" />
 			<item name="AssaultBag_Ttsko" chance="0.10" />
 			<item name="AssaultBag_Black" chance="0.10" />
 			<item name="TortillaBag" chance="0.05" />
-			<item name="SmershBag" chance="0.05" />
+			<item name="AliceBag_Camo" chance="0.75" />
 			<item name="CoyoteBag_Brown" chance="0.05" />
 			<item name="CoyoteBag_Green" chance="0.05" />
 			<item name="AliceBag_Camo" chance="0.05" />
