@@ -407,8 +407,8 @@
 			<item name="AviatorGlasses" chance="0.25" />
 		</attachments>
 		<attachments chance="0.20" name="vestsArmy">
-			<item name="UKAssVest_Black" chance="0.20" />
-			<item name="UKAssVest_Camo" chance="0.20" />
+			<item name="UKAssVest_Black" chance="0.50" />
+			<item name="UKAssVest_Camo" chance="0.75" />
 			<item name="UKAssVest_Khaki" chance="0.2" />
 			<item name="UKAssVest_Olive" chance="0.2" />
 			<item name="SmershVest" chance="0.05" />
@@ -449,7 +449,7 @@
 		</attachments>
 
 		<!--UNIVERSAL ATTACHMENTS-->
-		<attachments chance="0.20" name="hatsMotorbike">
+		<attachments chance="0.00" name="hatsMotorbike">
 				<item name="MotoHelmet_Black" chance="0.10" />
 				<item name="MotoHelmet_Blue" chance="0.10" />
 				<item name="MotoHelmet_Green" chance="0.10" />
@@ -471,46 +471,46 @@
 		</attachments>
 		
 		<!--T1 GEAR-->
-		<cargo chance="0.15" name="drinks_T1">
-				<item name="SodaCan_Cola" chance="0.10" />
-				<item name="SodaCan_Pipsi" chance="0.10" />
-				<item name="SodaCan_Spite" chance="0.10" />
+		<cargo chance="1.00" name="drinks_T1">
+				<item name="SodaCan_Cola" chance="0.75" />
+				<item name="SodaCan_Pipsi" chance="0.75" />
+				<item name="SodaCan_Spite" chance="0.75" />
 				<item name="SodaCan_Kvass" chance="0.10" />
-				<item name="SodaCan_Fronta" chance="0.10" />
-				<item name="WaterBottle" chance="0.1" />
+				<item name="SodaCan_Fronta" chance="0.75" />
+				<item name="WaterBottle" chance="1.0" />
 		</cargo>
-		<cargo chance="0.20" name="food_T1">		
+		<cargo chance="1.00" name="food_T1">		
 				<item name="HumanSteakMeat" chance="0.03" />
 				<item name="Guts" chance="0.03" />
 				<item name="PotatoSeed" chance="0.1" />
 				<item name="Zucchini" chance="0.1" />
 				<item name="Tomato" chance="0.1" />
 				<item name="GreenBellPepper" chance="0.1" />
-				<item name="PowderedMilk" chance="0.1" />
+				<item name="PowderedMilk" chance="1.0" />
 				<item name="Pajka" chance="0.1" />
 				<item name="Pate" chance="0.1" />
 				<item name="BrisketSpread" chance="0.1" />
-				<item name="SaltySticks" chance="0.2" />
-				<item name="Crackers" chance="0.2" />
-				<item name="Chips" chance="0.2" />
+				<item name="SaltySticks" chance="1.0" />
+				<item name="Crackers" chance="1.0" />
+				<item name="Chips" chance="1.0" />
 		</cargo>
 		<cargo chance="0.20" name="toolsCommon_T1">
 				<item name="Matchbox" chance="0.1" />
-				<item name="SteakKnife" chance="0.2" />
-				<item name="Rag" chance="0.15" />
+				<item name="Hammer" chance="1.0" />
+				<item name="Nailbox" chance="0.15" />
 		</cargo>
 		<cargo chance="0.15" name="toolsIndustrial_T1">
-				<item name="Rag" chance="0.1" />
-				<item name="Crowbar" chance="0.1" />
-				<item name="Hammer" chance="0.2" />
-				<item name="Screwdriver" chance="0.15" />
-				<item name="Hatchet" chance="0.05" />
-				<item name="Paper" chance="0.2" />
-				<item name="Pipe" chance="0.2" />
+				<item name="Nailbox" chance="1.0" />
+				<item name="NVGoggles" chance="1.0" />
+				<item name="Hammer" chance="1.0" />
+				<item name="Battery9V" chance="0.75" />
+				<item name="Hatchet" chance="1.00" />
+				<item name="NVGHeadstrap" chance="1.0" />
+				<item name="Nailbox" chance="1.0" />
 		</cargo>
 		
 		<!--T1 Attachments-->
-		<attachments chance="0.2" name="helmetsCommon_T1">
+		<attachments chance="0.0" name="helmetsCommon_T1">
 				<item name="SkateHelmet_Black" chance="0.1" />
 				<item name="SkateHelmet_Blue" chance="0.1" />
 				<item name="SkateHelmet_Gray" chance="0.1" />
@@ -537,10 +537,10 @@
 		</attachments>
 		
 		<!--Xmas Clothing-->
-		<attachments chance="1.00" name="SantaHat">
+		<attachments chance="0.00" name="SantaHat">
 			<item name="SantasHat" chance="1.00" />
 		</attachments>
-		<cargo chance="0.20" name="SantaBeard">
+		<cargo chance="0.00" name="SantaBeard">
 			<item name="GiftBox_Small_1" chance="0.20" />
 			<item name="GiftBox_Small_2" chance="0.20" />
 			<item name="GiftBox_Small_3" chance="0.20" />
