@@ -3821,8 +3821,7 @@
 			<item name="Truck_01_Door_2_1_Orange" chance="0.50" />
 		</attachments>
 	</type>
-<!--
-	<type name="V3S_Chassis">
+        <type name="V3S_Chassis">
 		<attachments chance="1.00">
 			<item name="V3SWheel" chance="1.00" />
 			<item name="V3SWheel" chance="1.00" />
@@ -3966,5 +3965,5 @@
 			<item name="V3SDoors_CoDriver_Grey" chance="0.50" />
 		</attachments>
 	</type>
--->
+
 </spawnabletypes>
