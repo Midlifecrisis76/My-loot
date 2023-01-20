@@ -56,7 +56,7 @@
 		<damage min="0.0" max="0.32" />
 	</type>
 	<type name="NVGoggles">
-		<damage min="0.0" max="0.32" />
+		<damage min="1.0" max="0.02" />
 	</type>
 	
 	<type name="KazuarOptic">
@@ -94,13 +94,13 @@
 	<type name="Glowplug">
 	</type>
 	<type name="CarRadiator">
-		<damage min="0.0" max="0.35" />
+		<damage min="0.1" max="0.02" />
 	</type>
 	<type name="CarBattery">
 		<damage min="0.0" max="0.35" />
 	</type>
 	<type name="TruckBattery">
-		<damage min="0.0" max="0.35" />
+		<damage min="0.1" max="0.2" />
 	</type>
 	<type name="Stone">
 		<damage min="0.1" max="0.1" />
@@ -209,25 +209,27 @@
 		<cargo preset="foodVillage" />
 		<cargo preset="mixVillage" />
 	</type>
-	<type name="TortillaBag">
+	<type name="AliceBag_Camo">
 		<cargo preset="foodArmy" />
 		<cargo preset="mixArmy" />
+		<cargo preset="foodVillage" />
+		<cargo preset="mixVillage" />
 	</type>
 	<type name="FirstAidKit">
 		<tag name="shelves" />
 		<cargo chance="1">
 			<item name="BandageDressing" />
 		</cargo>
-		<cargo chance="0.8">
-			<item name="Thermometer" />
+		<cargo chance="1.0">
+			<item name="TetracyclineAntibiotics" />
 		</cargo>
-		<cargo chance="0.8">
-			<item name="StartKitIV" />
+		<cargo chance="1.0">
+			<item name="BandageDressing" />
 		</cargo>
-		<cargo chance="0.8">
+		<cargo chance="1.0">
 			<item name="BloodBagEmpty" />
 		</cargo>
-		<cargo chance="0.8">
+		<cargo chance="1.0">
 			<item name="BloodTestKit" />
 		</cargo>
 	</type>
@@ -977,10 +979,10 @@
 		<cargo preset="toolsCity" />
 	</type>
 	<type name="DirtBikeHelmet_Black">
-		<attachments chance="0.20">
+		<attachments chance="0.00">
 			<item name="DirtBikeHelmet_Mouthguard" chance="1.00" />
 		</attachments>
-		<attachments chance="0.20">
+		<attachments chance="0.00">
 			<item name="DirtBikeHelmet_Visor" chance="1.00" />
 		</attachments>
 	</type>
@@ -2169,26 +2171,26 @@
 		</attachments>
 	</type>
 	<type name="VSS">
-		<attachments chance="0.25">
-			<item name="KashtanOptic" chance="0.40" />
-			<item name="PSO1Optic" chance="0.40" />
+		<attachments chance="1.00">
+			<item name="KashtanOptic" chance="1.00" />
+			<item name="PSO1Optic" chance="1.00" />
 		</attachments>
 		<attachments chance="1.0">
 			<item name="PSO11Optic" chance="1.00" />
 		</attachments>
-		<attachments chance="0.10">
+		<attachments chance="1.00">
 			<item name="Mag_VSS_10Rnd" chance="1.00" />
 		</attachments>
 	</type>	
 	<type name="ASVAL">
-		<attachments chance="0.10">
+		<attachments chance="1.00">
 			<item name="Mag_VAL_20Rnd" chance="1.00" />
 		</attachments>
-		<attachments chance="0.30">
-			<item name="BUISOptic" chance="0.15" />
-			<item name="M4_T3NRDSOptic" chance="0.15" />
-			<item name="ReflexOptic" chance="0.15" />
-			<item name="ACOGOptic" chance="0.15" />
+		<attachments chance="1.00">
+			<item name="BUISOptic" chance="1.00" />
+			<item name="M4_T3NRDSOptic" chance="1.00" />
+			<item name="ReflexOptic" chance="1.00" />
+			<item name="ACOGOptic" chance="1.00" />
 		</attachments>	
 		<attachments chance="0.10">
 			<item name="TLRLight" chance="1.00" />
@@ -2218,7 +2220,7 @@
 		</attachments>
 	</type>
 	<type name="SKS">
-		<damage min="0.3" max="0.7" />
+		<damage min="0.1" max="0.2" />
 		<attachments chance="0.10">
 			<item name="PUScopeOptic" chance="1.00" />
 		</attachments>
@@ -2283,7 +2285,7 @@
 		</attachments>
 	</type>
 	<type name="M4A1">
-		<damage min="0.45" max="0.85" />
+		<damage min="0.01" max="0.02" />
 		<attachments chance="1.00">
 			<item name="M4_OEBttstck" chance="1.00" />
 		</attachments>
@@ -2291,91 +2293,91 @@
 			<item name="M4_PlasticHndgrd" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="BUISOptic" chance="0.50" />
+			<item name="BUISOptic" chance="1.00" />
 			<item name="M4_CarryHandleOptic" chance="1.00" />
 		</attachments>
-		<attachments chance="0.30">
-			<item name="Mag_CMAG_40Rnd" chance="0.15" />
+		<attachments chance="1.00">
+			<item name="Mag_CMAG_40Rnd" chance="1.00" />
 			<item name="Mag_CMAG_10Rnd" chance="0.50" />
 			<item name="Mag_CMAG_20Rnd" chance="0.70" />
 			<item name="Mag_CMAG_30Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="M16A2">
-		<damage min="0.3" max="0.7" />
+		<damage min="0.1" max="0.2" />
 		<attachments chance="0.30">
-			<item name="Mag_CMAG_40Rnd" chance="0.15" />
+			<item name="Mag_CMAG_40Rnd" chance="1.00" />
 			<item name="Mag_CMAG_10Rnd" chance="0.50" />
 			<item name="Mag_CMAG_20Rnd" chance="0.70" />
 			<item name="Mag_CMAG_30Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="FAMAS">
-		<damage min="0.3" max="0.7" />
+		<damage min="0.1" max="0.2" />
 		<attachments chance="0.75">
 			<item name="Mag_FAMAS_25Rnd" chance="1.0" />
 		</attachments>
 	</type>
 	<type name="Aug">
-		<attachments chance="0.25">
+		<attachments chance="1.00">
 			<item name="Mag_Aug_30Rnd" chance="1.0" />
 		</attachments>
 		<attachments chance="0.30">
-			<item name="BUISOptic" chance="0.15" />
-			<item name="M4_T3NRDSOptic" chance="0.15" />
-			<item name="ReflexOptic" chance="0.15" />
-			<item name="ACOGOptic" chance="0.15" />
+			<item name="BUISOptic" chance="1.00" />
+			<item name="M4_T3NRDSOptic" chance="1.00" />
+			<item name="ReflexOptic" chance="1.00" />
+			<item name="ACOGOptic" chance="1.00" />
 		</attachments>	
-		<attachments chance="0.10">
+		<attachments chance="1.00">
 			<item name="TLRLight" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="AugShort">
-		<damage min="0.3" max="0.7" />
-		<attachments chance="0.25">
+		<damage min="0.1" max="0.2" />
+		<attachments chance="01.00">
 			<item name="Mag_Aug_30Rnd" chance="1.0" />
 		</attachments>
 	</type>
 	<type name="FAL">
-		<damage min="0.45" max="0.85" />
+		<damage min="0.1" max="0.2" />
 		<attachments chance="1.00">
-			<item name="Fal_FoldingBttstck" chance="0.50" />
+			<item name="Fal_FoldingBttstck" chance="1.00" />
 			<item name="Fal_OeBttstck" chance="1.00" />
 		</attachments>
 		<attachments chance="0.20">
-			<item name="BUISOptic" chance="0.20" />
-			<item name="M68Optic" chance="0.20" />
-			<item name="M4_T3NRDSOptic" chance="0.20" />
-			<item name="ReflexOptic" chance="0.20" />
-			<item name="ACOGOptic" chance="0.20" />
+			<item name="BUISOptic" chance="1.00" />
+			<item name="M68Optic" chance="1.00" />
+			<item name="M4_T3NRDSOptic" chance="1.00" />
+			<item name="ReflexOptic" chance="1.00" />
+			<item name="ACOGOptic" chance="1.00" />
 		</attachments>
 		<attachments chance="0.10">
 			<item name="Mag_FAL_20Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="SVD">
-		<damage min="0.3" max="0.7" />
-		<attachments chance="0.10">
+		<damage min="0.1" max="0.2" />
+		<attachments chance="1.00">
 			<item name="Mag_SVD_10Rnd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.50">
-			<item name="KashtanOptic" chance="0.50" />
-			<item name="PSO11Optic" chance="0.30" />
+			<item name="KashtanOptic" chance="1.00" />
+			<item name="PSO11Optic" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Colt1911">
-		<attachments chance="0.05">
+		<attachments chance="1.00">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.30">
+		<attachments chance="1.00">
 			<item name="Mag_1911_7Rnd" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Engraved1911">
-		<attachments chance="0.05">
+		<attachments chance="1.00">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
-		<attachments chance="0.60">
+		<attachments chance="1.00">
 			<item name="Mag_1911_7Rnd" chance="1.00" />
 		</attachments>
 	</type>
@@ -2460,16 +2462,16 @@
 		</attachments>
 	</type>
 	<type name="PP19">
-		<attachments chance="0.05">
+		<attachments chance="PP19">
 			<item name="PistolSuppressor" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="PP19_Bttstck" chance="1.00" />
 		</attachments>
-		<attachments chance="0.25">
-			<item name="PSO11Optic" chance="0.30" />
-			<item name="PSO1Optic" chance="0.30" />
-			<item name="KobraOptic" chance="0.40" />
+		<attachments chance="PP19">
+			<item name="PSO11Optic" chance="PP19" />
+			<item name="PSO1Optic" chance="PP19" />
+			<item name="KobraOptic" chance="PP19" />
 		</attachments>
 		<attachments chance="0.20">
 			<item name="Mag_PP19_64Rnd" chance="1.00" />
@@ -2500,10 +2502,10 @@
 		</attachments>
 	</type>
 	<type name="M4_Suppressor">
-		<damage min="0.0" max="0.32" />
+		<damage min="0.1" max="0.2" />
 	</type>
 	<type name="PistolSuppressor">
-		<damage min="0.0" max="0.32" />
+		<damage min="0.0" max="0.2" />
 	</type>
 	<type name="AK_Suppressor">
 		<damage min="0.0" max="0.32" />
@@ -2543,8 +2545,7 @@
 	<type name="Canteen">
 	</type>
 	
-<!-- FUTURE
-	<type name="M249">
+<type name="M249">
 		<attachments chance="1.00">
 			<item name="M249_Hndgrd" chance="1.00" />
 		</attachments>
@@ -3601,8 +3602,7 @@
 			<item name="Truck_01_Door_2_1_Orange" chance="0.50" />
 		</attachments>
 	</type>
-<!--
-	<type name="V3S_Chassis">
+        <type name="V3S_Chassis">
 		<attachments chance="1.00">
 			<item name="V3SWheel" chance="1.00" />
 			<item name="V3SWheel" chance="1.00" />
