@@ -1,14 +1,22 @@
 </type>
-	<type name="FNX45">
+	<type name="AKM">
 		<attachments chance="1.00">
-			<item name="Mag_FNX45_15Rnd" chance="1.00" />
+			<item name="Mag_AKM_Drum75Rnd" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="PistolSuppressor" chance="1.00" />
+			<item name="PSO11Optic" chance="1.00" />
 		</attachments>
-		<attachments chance="0.10">
-			<item name="TLRLight" chance="1.00" />
+		<attachments chance="1.00">
+			<item name="AK_FoldingBttstck" chance="1.00" />
 		</attachments>
-		<attachments chance="0.15">
-			<item name="FNP45_MRDSOptic" chance="1.00" />
+		<attachments chance="1.00">
+			<item name="AK_Suppressor" chance="1.00" />
 		</attachments>
+		<attachments chance="1.00">
+			<item name="GhillieAtt_Woodland" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="AK_RailHndgrd" chance="1.00" />
+		</attachments>
+		
+		
