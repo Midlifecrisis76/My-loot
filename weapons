@@ -1,0 +1,14 @@
+</type>
+	<type name="FNX45">
+		<attachments chance="1.00">
+			<item name="Mag_FNX45_15Rnd" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="PistolSuppressor" chance="1.00" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="TLRLight" chance="1.00" />
+		</attachments>
+		<attachments chance="0.15">
+			<item name="FNP45_MRDSOptic" chance="1.00" />
+		</attachments>
