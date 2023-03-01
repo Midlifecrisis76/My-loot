@@ -3,7 +3,7 @@
 <event name="Land_FuelStation_Build">
 		<pos x="2031.433228" z="12200.404297" a="332.402588" />
 </event> 
-<event name="Land_Water_Station">
+<event name="Land_Misc_Well_Pump_Blue">
 		<pos x="2083.696778" z="12178.030273" a="330.690643" /> 
 </event> 
 <event name="VehicleCivilianSedan">
